@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <attr name="is_show_indicator" format="boolean"/>
+        <attr name="is_auto_play" format="boolean"/>
+        <attr name="delay_time" format="integer"/>
+        <attr name="title_background" format="color|reference"/>
+        <attr name="title_text_color" format="color|reference"/>
+        <attr name="title_text_size" format="dimension"/>
+        <attr name="title_height" format="dimension"/>
+        <attr name="indicator_radius" format="dimension"/>
+        <attr name="indicator_margin" format="dimension"/>
+        <attr name="indicator_drawable_selected" format="reference"/>
+        <attr name="indicator_drawable_unselected" format="reference"/>
+        <attr name="image_filter" format="color|reference"/>
+        <attr name="indicator_background" format="color|reference"></attr>
+        <attr name="indicator_location">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
